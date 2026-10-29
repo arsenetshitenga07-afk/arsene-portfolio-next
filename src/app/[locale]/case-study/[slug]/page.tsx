@@ -13,8 +13,16 @@ export async function generateMetadata({params}:{params:Promise<{locale:string;s
     openGraph:{title:project.title,description:project.summary,type:"article"}} : {};
 }
 export async function generateStaticParams() {
-  const t=await getTranslations({locale:"fr",namespace:"projects"});
-  return (t.raw("items") as Project[]).map(({slug})=>({slug}));
+  const locales = ['fr', 'en'];
+  const params: {locale: string; slug: string}[] = [];
+
+  for (const locale of locales) {
+    const t = await getTranslations({locale, namespace: "projects"});
+    const items = t.raw("items") as Project[];
+    params.push(...items.map((p) => ({locale, slug: p.slug})));
+  }
+
+  return params;
 }
 export default async function CaseStudyPage({params}:{params:Promise<{locale:string;slug:string}>}) {
   const {locale,slug}=await params; const project=await findProject(locale,slug); if(!project) notFound();

@@ -1,0 +1,307 @@
+{
+  "nav": {
+    "label": "Navigation principale",
+    "skip": "Aller au contenu",
+    "home": "Accueil",
+    "works": "Projets",
+    "about": "À propos",
+    "lab": "Laboratoire",
+    "contact": "Contact",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "switchLanguage": "Passer en {locale}",
+    "theme": "Passer au thème {theme}",
+    "themeNames": {
+      "light": "clair",
+      "dark": "sombre",
+      "system": "système"
+    },
+    "brandRole": "DÉVELOPPEUR FULL-STACK"
+  },
+  "home": {
+    "stampText": "CODE · SOIN · CRÉATION",
+    "availability": "Disponible pour de nouvelles opportunités",
+    "location": "Kinshasa · République démocratique du Congo",
+    "kicker": "Développeur full-stack · frontend & backend",
+    "titleA": "Le web",
+    "titleB": "mérite qu’on",
+    "titleC": "s’y attarde.",
+    "intro": "Je suis Arsène Tshitenga Ntambwa. Je donne forme aux idées avec du code, du mouvement et des interfaces pensées pour les personnes.",
+    "primaryCta": "Explorer les projets",
+    "secondaryCta": "Parlons de votre idée",
+    "scroll": "Défiler pour découvrir",
+    "featuredLabel": "Sélection — 2024 / 2026",
+    "workTitle": "Du concret, du code,",
+    "workTitleAccent": "des idées en mouvement.",
+    "workIntro": "Des projets d’étude, une expérience en entreprise et des expérimentations personnelles.",
+    "allWorks": "Voir tous les projets",
+    "noteLabel": "Approche",
+    "noteTitle": "La technique doit servir l’expérience.",
+    "noteBody": "J’aime les interfaces vivantes, mais jamais au détriment de la clarté, de l’accessibilité ou de la vitesse.",
+    "aboutLink": "Découvrir mon parcours",
+    "servicesLabel": "Ce que je construis",
+    "services": [
+      "Interfaces web",
+      "Applications utiles",
+      "Expériences interactives"
+    ]
+  },
+  "works": {
+    "eyebrow": "Sélection de projets",
+    "title": "Le travail parle.",
+    "subtitle": "Une sélection de projets réalisés, explorés ou imaginés au fil de mon parcours.",
+    "all": "Tous",
+    "interface": "Interface",
+    "application": "Application",
+    "experiment": "Expérimentation",
+    "count": "{count} projets",
+    "openProject": "Découvrir le projet",
+    "empty": "Aucun projet dans cette catégorie.",
+    "filterLabel": "Filtrer les projets",
+    "metaTitle": "Projets — Arsène Tshitenga"
+  },
+  "projects": {
+    "items": [
+      {
+        "slug": "portfolio-creative",
+        "title": "Arsène — portfolio créatif",
+        "category": "Interface",
+        "year": "2026",
+        "summary": "Une vitrine personnelle pour relier développement frontend, narration et interaction.",
+        "role": "Direction créative, conception et développement frontend.",
+        "context": "Projet personnel : concevoir une présence en ligne qui rende mon approche du développement lisible dès les premières secondes.",
+        "challenge": "Mettre en valeur le travail et le parcours sans sacrifier la vitesse, la lisibilité ni l’usage sur mobile.",
+        "approach": "Une composition éditoriale, un système bilingue, des interactions mesurées et une identité visuelle construite en CSS et WebGL léger.",
+        "outcome": "Le portfolio devient à la fois une présentation de projets et un terrain d’expérimentation pour les interfaces web.",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "next-intl",
+          "WebGL"
+        ],
+        "visual": "portfolio"
+      },
+      {
+        "slug": "vodacom-smart-agent",
+        "title": "Vodacom Smart Agent",
+        "category": "Application",
+        "year": "2026",
+        "summary": "Une interface interne imaginée pendant mon stage chez Vodacom Congo.",
+        "role": "Stagiaire développeur frontend.",
+        "context": "Stage au sein de Vodacom Congo, à Kinshasa. Le travail portait sur des outils internes liés au suivi des points de vente.",
+        "challenge": "Rendre des informations opérationnelles plus simples à parcourir et à comprendre au quotidien.",
+        "approach": "Contribution frontend à une interface de supervision et à des projets de digitalisation, en collaboration avec l’équipe technique.",
+        "outcome": "Une expérience de travail en équipe produit et la découverte des contraintes d’outils internes en contexte réel. Les détails restent confidentiels.",
+        "stack": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "visual": "signal"
+      },
+      {
+        "slug": "telemedecine",
+        "title": "Consultation à distance",
+        "category": "Application",
+        "year": "2024",
+        "summary": "Un projet de fin de cycle autour du suivi médical et des consultations à distance.",
+        "role": "Conception et développement d’un prototype étudiant.",
+        "context": "Travail de fin de cycle à l’Université de Kinshasa, consacré à l’accès à des services de consultation à distance.",
+        "challenge": "Structurer les étapes d’un parcours de consultation et de suivi dans une application compréhensible.",
+        "approach": "Un prototype web réunissant interface React, services Node.js et stockage MongoDB.",
+        "outcome": "Un projet académique qui m’a permis de mettre en pratique la conception d’interfaces et l’intégration frontend-backend.",
+        "stack": [
+          "React",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ],
+        "visual": "telehealth"
+      },
+      {
+        "slug": "catalog-service",
+        "title": "Catalog-Service",
+        "category": "Expérimentation",
+        "year": "2026",
+        "summary": "Exploration d’un portail pour organiser des ressources et services numériques.",
+        "role": "Développement frontend et exploration de l’architecture.",
+        "context": "Piste de projet interne abordée pendant mon expérience chez Vodacom Congo.",
+        "challenge": "Imaginer une manière claire de retrouver et de présenter des outils numériques depuis un point d’entrée unique.",
+        "approach": "Un concept de catalogue organisé autour de la recherche, de catégories et de fiches de service.",
+        "outcome": "Étude de conception et de structuration. Les éléments internes ne sont pas publiés.",
+        "stack": [
+          "React",
+          "Node.js",
+          "Express",
+          "PostgreSQL"
+        ],
+        "visual": "catalog"
+      }
+    ]
+  },
+  "caseStudy": {
+    "back": "Retour aux projets",
+    "role": "Rôle",
+    "context": "Contexte",
+    "challenge": "Le défi",
+    "approach": "L’approche",
+    "outcome": "Ce que le projet m’a apporté",
+    "stack": "Outils & technologies",
+    "next": "Continuer la visite",
+    "nextLink": "Projet suivant",
+    "contact": "Parlons de votre projet"
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "titleA": "Faire simple",
+    "titleB": "demande du travail.",
+    "lead": "Je suis Arsène, développeur full-stack basé à Kinshasa. Du frontend au backend, je transforme des problèmes concrets en expériences web claires, sensibles et bien construites.",
+    "storyLabel": "Mon parcours",
+    "storyTitle": "Entre logique et curiosité.",
+    "story": "Ma formation en mathématiques-informatique m’a donné le goût de résoudre des problèmes. Mes expériences professionnelles m’ont appris à écouter les besoins, collaborer et livrer avec rigueur. Aujourd’hui, j’explore aussi les interactions, le temps réel et les outils du web créatif.",
+    "experience": "Expérience",
+    "education": "Formation",
+    "skills": "Technologies & pratiques",
+    "experienceItems": [
+      {
+        "role": "Stagiaire — développeur frontend",
+        "place": "Vodacom Congo · Kinshasa",
+        "date": "Septembre — octobre 2026",
+        "detail": "Contribution à des outils internes de supervision des points de vente et à des projets de digitalisation."
+      },
+      {
+        "role": "Délégué commercial",
+        "place": "Elvino · Kinshasa",
+        "date": "2025",
+        "detail": "Développement de partenariats et relation avec les clients."
+      },
+      {
+        "role": "Opérateur de saisie",
+        "place": "Cyber Café Triple A · Matete",
+        "date": "2023",
+        "detail": "Mise en forme de documents, accueil et respect des délais."
+      }
+    ],
+    "educationItems": [
+      {
+        "degree": "Licence en Mathématiques-Informatique",
+        "place": "Université de Kinshasa · Faculté des Sciences",
+        "date": "2022 — 2026"
+      },
+      {
+        "degree": "Diplôme d’État en Mathématiques-Physique",
+        "place": "Institut Lubudi I",
+        "date": "2021 — 2022"
+      },
+      {
+        "degree": "Formation 3D & temps réel",
+        "place": "Orange Digital Center",
+        "date": "2024"
+      }
+    ],
+    "skillGroups": [
+      {
+        "title": "Frontend",
+        "items": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "JavaScript",
+          "HTML & CSS"
+        ]
+      },
+      {
+        "title": "Backend & données",
+        "items": [
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "title": "Outils & exploration",
+        "items": [
+          "Git",
+          "Figma",
+          "AWS",
+          "3D temps réel",
+          "Accessibilité web"
+        ]
+      }
+    ],
+    "contactCta": "Un projet en tête ? Écrivons la suite.",
+    "metaTitle": "À propos — Arsène Tshitenga"
+  },
+  "lab": {
+    "eyebrow": "Laboratoire",
+    "titleA": "Tester. Déformer.",
+    "titleB": "Recommencer.",
+    "intro": "Un espace pour apprendre en construisant : petits gestes d’interface, formes génératives et idées encore en mouvement.",
+    "experiments": [
+      {
+        "number": "01",
+        "title": "Champ magnétique",
+        "type": "Interaction",
+        "copy": "Déplace le pointeur et observe le champ se réorganiser.",
+        "action": "Bouger le pointeur"
+      },
+      {
+        "number": "02",
+        "title": "Palette vivante",
+        "type": "Couleur",
+        "copy": "Une palette change au rythme de tes clics.",
+        "action": "Changer la palette"
+      },
+      {
+        "number": "03",
+        "title": "Typographie fluide",
+        "type": "Type",
+        "copy": "La taille du texte suit l’espace disponible.",
+        "action": "Pensé pour toutes les tailles"
+      }
+    ],
+    "note": "Ces prototypes sont des explorations d’interface, pas des projets client.",
+    "metaTitle": "Laboratoire — Arsène Tshitenga"
+  },
+  "contact": {
+    "mailSubject": "Portfolio — message de {name}",
+    "sender": "De",
+    "eyebrow": "Contact",
+    "titleA": "Une bonne idée",
+    "titleB": "commence par bonjour.",
+    "intro": "Tu as un projet, une opportunité ou simplement envie d’échanger ? Écris-moi.",
+    "formTitle": "Envoyer un message",
+    "name": "Ton nom",
+    "email": "Ton adresse e-mail",
+    "message": "Quelques mots sur ton idée",
+    "send": "Préparer le message",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Téléphone",
+    "locationLabel": "Basé à",
+    "location": "Kinshasa, RDC",
+    "availability": "Disponible pour des projets full-stack, frontend et backend.",
+    "mailtoNote": "Ton application de messagerie s’ouvrira pour envoyer le message.",
+    "nameRequired": "Merci d’indiquer ton nom.",
+    "emailRequired": "Merci d’indiquer une adresse e-mail valide.",
+    "messageRequired": "Ajoute quelques détails à ton message.",
+    "metaTitle": "Contact — Arsène Tshitenga"
+  },
+  "notFound": {
+    "eyebrow": "Erreur 404",
+    "title": "Cette page n’existe pas.",
+    "body": "Le lien a peut-être changé. Revenons à un endroit connu.",
+    "home": "Retour à l’accueil"
+  },
+  "footer": {
+    "eyebrow": "Une idée en tête ?",
+    "cta": "On en parle.",
+    "copyright": "Arsène Tshitenga Ntambwa",
+    "backToTop": "Retour en haut",
+    "location": "KINSHASA, RDC"
+  },
+  "metadata": {
+    "title": "Arsène Tshitenga — Développeur full-stack",
+    "description": "Portfolio d’Arsène Tshitenga Ntambwa, développeur full-stack à Kinshasa, spécialisé en frontend et backend. Projets web et applications."
+  }
+}

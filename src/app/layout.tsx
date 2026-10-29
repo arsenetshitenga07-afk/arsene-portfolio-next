@@ -6,6 +6,9 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 export const metadata: Metadata = {
   title: "Arsène Tshitenga — Full-stack developer",
   description: "Portfolio of Arsène Tshitenga Ntambwa, a full-stack developer in Kinshasa.",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="fr" suppressHydrationWarning><body className={geistSans.variable + " " + geistMono.variable}>{children}</body></html>;

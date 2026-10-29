@@ -15,7 +15,7 @@ export async function generateMetadata({params}:{params:Promise<{locale:string}>
 }
 export default async function LocaleLayout({children,params}:Readonly<{children:React.ReactNode;params:Promise<{locale:string}>}>){
   const {locale}=await params; if(!hasLocale(routing.locales,locale)) notFound();
-  const messages=await getMessages();
+  const messages=await getMessages({locale});
   return <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
     <NextIntlClientProvider messages={messages}><LocaleDocument/><ScrollReveal/><Navbar/>
       <main id="main-content" className="site-main">{children}</main><Footer/>
